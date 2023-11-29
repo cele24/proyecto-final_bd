@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <section class="form-registro">
+        <form name="formulario" action="index.php"  id="formulario" method="get">
+            <h4>Base de datos: FRUTERIA:</h4>
+            <label for="loc">Seleccione producto a borrar: </label><br>
+            <datalist id="lo" >
+                <option value="Frutilla"></option>
+                <option value="Kiwi"></option>
+                <option value="Ciruelas"></option>
+                <option value="Manzana"></option>
+            </datalist>
+            <input class="estilo" type="text" id="ins" name="borrar" list="lo"><br>
+            <label for="lname">Ingrese producto nuevo a insertar:</label><br>
+            <input class="estilo" type="nuevo" id="nuevo" name="nuevo" placeholder="nuevo producto" required><br>
+            <label for="lname">Numero articulo:</label><br>
+            <input class="estilo" type="nuevo" id="nuevo" name="art"placeholder="nuevo producto" required><br>
+            <label for="lname">Precio:</label><br>
+            <input class="estilo" type="nuevo" id="nuevo" name="prec"placeholder="nuevo producto" required><br>
+            <label for="lname">Stock:</label><br>
+            <input class="estilo" type="nuevo" id="nuevo" name="stock"placeholder="nuevo producto" required><br>
+            
+            <input class="boton" type="submit" value="enviar">
+           </form>
+    </section>
+</body>
+</html>

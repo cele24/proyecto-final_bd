@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(135, 147, 219);
+}
+.form-registro{
+    width: 400px;
+    background-color: rgb(5, 12, 77);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+    font-family: arial;
+    color: white;
+    box-shadow: 7px 13px 37px black;
+}
+.form-registro h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.form-registro p{
+    height: 40px;
+    text-align: center;
+}
+.form-registro a{
+    color: white;
+    text-decoration: none;
+}
+.form-registro a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.form-registro .boton{
+width: 100%;
+background-color: rgb(66, 68, 182);
+border: none;
+padding: 12px;
+color: white;
+margin: 16px 0px;
+font-size: 16px;
+}
+.estilo{
+    width: 100%;
+    background-color:rgb(5, 12, 77);
+    padding: 7px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: arial;
+    color: white;
+}
+
+.hola{
+    text-align: center;
+    font-family: arial;
+    padding-top: 250px;
+}
+.boton{
+    width: 100%;
+    background-color: rgb(66, 68, 182);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 16px;
+    
+    }
